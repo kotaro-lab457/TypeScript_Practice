@@ -8,10 +8,9 @@ export default function notExistSample() {
     console.log("notExist sample 3:", "僕はヌルではない");
   }
 
-  let age = undefined;
+  const age = undefined;
   console.log("notExist sample 4:", typeof age, age);
 
-  let age = 23;
   // ageが提示されている時 提示されていない（undefined）
   if (age) {
     console.log("notExist sample 5:", typeof age, "年齢は" + age + "です");
