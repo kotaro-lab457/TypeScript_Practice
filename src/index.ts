@@ -36,6 +36,7 @@ import {
   sumProductsPrice,
 } from "./function/parameters";
 
+// ↓戻り値
 isUserSignIn("abc", "panda");
 isUsersSignIn2("123");
 const sum = sumProductsPrice(1000, 2000, 500);
