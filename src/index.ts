@@ -18,26 +18,34 @@
 // unknownSample();
 
 // 第４回 関数の型定義
-import {
-  logMessage,
-  logMessage2,
-  logMessage5,
-  logMessage6,
-} from "./function/basic";
+// import {
+//   logMessage,
+//   logMessage2,
+//   logMessage5,
+//   logMessage6,
+// } from "./function/basic";
 
-logMessage("Hello logMessage");
-logMessage2("Hello");
-logMessage6("ネイチャ");
-logMessage5("呼び出しネイチャ");
+// logMessage("Hello logMessage");
+// logMessage2("Hello");
+// logMessage6("ネイチャ");
+// logMessage5("呼び出しネイチャ");
 
-import {
-  isUserSignIn,
-  isUsersSignIn2,
-  sumProductsPrice,
-} from "./function/parameters";
+// import {
+//   isUserSignIn,
+//   isUsersSignIn2,
+//   sumProductsPrice,
+// } from "./function/parameters";
 
-// ↓戻り値
-isUserSignIn("abc", "panda");
-isUsersSignIn2("123");
-const sum = sumProductsPrice(1000, 2000, 500);
-console.log("Function parameters sample 5: Total price:", sum);
+// // ↓戻り値
+// isUserSignIn("abc", "panda");
+// isUsersSignIn2("123");
+// const sum = sumProductsPrice(1000, 2000, 500);
+// console.log("Function parameters sample 5: Total price:", sum);
+
+// 第５回 オブジェクトの型定義
+
+import objectSample from "./object/object";
+objectSample();
+
+import typeAliasSample from "./object/ailias";
+typeAliasSample();
