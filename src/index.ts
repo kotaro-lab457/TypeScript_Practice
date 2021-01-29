@@ -49,8 +49,17 @@
 // import typeAliasSample from "./object/ailias";
 // typeAliasSample();
 
-import arraySample from "./array/array";
-arraySample();
+// 第６回 配列とダブルの型定義
+// import arraySample from "./array/array";
+// arraySample();
 
-import tupleSample from "./array/tuple";
-tupleSample();
+// import tupleSample from "./array/tuple";
+// tupleSample();
+
+// ジェネリックの抽象化とポリモーフィズム
+
+import genericsSample from "./generics/basic";
+import advancedSample from "./generics/advanced";
+
+genericsSample();
+advancedSample();
