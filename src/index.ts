@@ -56,10 +56,8 @@
 // import tupleSample from "./array/tuple";
 // tupleSample();
 
-// ジェネリックの抽象化とポリモーフィズム
-
+// 第７回 ジェネリックの抽象化とポリモーフィズム
 import genericsSample from "./generics/basic";
 import advancedSample from "./generics/advanced";
-
 genericsSample();
 advancedSample();
