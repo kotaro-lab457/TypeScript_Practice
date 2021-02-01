@@ -1,3 +1,4 @@
+// 第１回 TypeScript環境構築
 // import World from './world';
 
 // const root: HTMLElement | null = document.getElementById("root")
